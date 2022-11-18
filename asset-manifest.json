@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/tutedude/static/css/main.2d7dea17.css",
+    "main.js": "/tutedude/static/js/main.6e23bf68.js",
+    "static/js/787.045cb936.chunk.js": "/tutedude/static/js/787.045cb936.chunk.js",
+    "static/media/logo.png": "/tutedude/static/media/logo.8a60a40af8ac33808ded.png",
+    "index.html": "/tutedude/index.html",
+    "main.2d7dea17.css.map": "/tutedude/static/css/main.2d7dea17.css.map",
+    "main.6e23bf68.js.map": "/tutedude/static/js/main.6e23bf68.js.map",
+    "787.045cb936.chunk.js.map": "/tutedude/static/js/787.045cb936.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d7dea17.css",
+    "static/js/main.6e23bf68.js"
+  ]
+}
