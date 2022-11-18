@@ -1,38 +1,218 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Poppins !important';
+    overflow-x: hidden !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fontSize {
+    font-size: 16px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.fontSize2 {
+    font-size: 14px !important;
+    line-height: 21px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.purple {
+    color: #800080 !important;
 }
 
-.App-link {
-  color: #61dafb;
+.bgpurple {
+    background-color: #800080 !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.fadePurple {
+    color: rgba(128, 0, 128, 0.25) !important;
+    font-family: 'Poppins !important';
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 123.5% !important;
+}
+
+.image {
+    width: 160px;
+    height: 63px;
+}
+
+.mainLink {
+    width: 111px;
+    height: 22px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.Lhide {
+    display: none;
+}
+
+/* NavBar CSS */
+.navbarLink {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: rgba(128, 0, 128, 0.25);
+}
+
+
+
+
+/* breadcrumb changes */
+.OwnBreadChange {
+
+    position: relative;
+    left: 124px !important;
+}
+
+/* Goback in Breadcrumb */
+.ShowGoBack {
+    display: none !important;
+    position: relative;
+    left: 11px !important;
+}
+
+.BreadFont {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* ReferCode  css in referCode.js file */
+.referCode {
+    width: 145px;
+    height: 85px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.referImage {
+    position: relative;
+    width: 124px;
+    height: 20px;
+    left: 15px;
+    top: 13px;
+}
+
+/* card css here */
+.card {
+    width: 358px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
+    border-radius: 20px;
+}
+
+.card_border{
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right,#FF864C, #800080 );
+    border-image-slice: 1;
+    border-radius: 10px;
+
+}
+
+/* screen 2 changes css */
+.screen2 {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.screen2_first {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    background: rgba(217, 217, 217, 0.25);
+}
+
+.screen2_btn {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px !important;
+}
+
+.media_heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.media_message {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.media_title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.screen2_second {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+
+/* Media Queries for desire mobile views in following */
+@media screen and (max-width: 428px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+
+    .image {
+        width: 160px;
+        height: 45px;
+    }
+
+    .navChange {
+        margin-top: 59px !important;
+    }
+
+    .ShowGoBack {
+        display: block !important;
+        position: relative;
+        left: 66px;
+    }
+
+    .OwnBreadChange {
+
+        position: relative;
+        left: 49px !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .Lhide {
+        display: block !important;
+    }
+
 }

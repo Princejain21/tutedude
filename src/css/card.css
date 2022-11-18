@@ -1,0 +1,9 @@
+.badge{
+    width:auto;
+height: 29px;
+border: 1.5px solid #EEAEAE;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
